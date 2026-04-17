@@ -14,14 +14,9 @@
 - **Защита от дубликатов** - предотвращение повторной регистрации
 
 ## Установка
-### Способ 1: Установка из репозитория (требуется Git)
+### Установка из репозитория (требуется Git)
 ```bash
-pip install git+https://github.com/Sam-Strand/registrar.git
-```
-
-### Способ 2: Установка готового пакета (без Git)
-```bash
-pip install https://github.com/Sam-Strand/registrar/releases/download/v1.0.0/registrar-1.0.0-py3-none-any.whl
+pip install git+https://github.com/Sam-Strand/registrar_py.git
 ```
 
 ## Быстрый старт
