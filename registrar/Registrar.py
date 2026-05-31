@@ -102,3 +102,6 @@ class Registrar:
     
     def __repr__(self) -> str:
         return f"Registrar(name='{self.name}', functions={len(self._function_pool)})"
+
+    def copy(self):
+        return self._function_pool.copy()
